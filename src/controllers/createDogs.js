@@ -1,6 +1,5 @@
 const { Dog } = require("../db");
 
-
 const createDogs = async (req,res)=> {
     try {
         const { name, height, weight, yearsLife, image, temperaments } = req.body;
